@@ -49,7 +49,7 @@ CREATE TABLE IF NOT EXISTS `orders` (
 	`orders_id` int AUTO_INCREMENT NOT NULL,
 	`employee_id` int NOT NULL,
 	`product_id` int NOT NULL,
-	`customer_id` int NOT NULL,
+	`customer_id` int NULL,
 	`transaction_type` int NOT NULL,
 	`transaction_moment` datetime NOT NULL,
 	`amount` int NOT NULL,
